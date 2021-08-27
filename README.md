@@ -6,7 +6,7 @@ My third Flatiron project assignment was to build a rails app from scratch. The 
 My app is called, vacation-rails-project, has many-to-many relationships. The app has user to signup and a sessions to login, after sign up or login the user able to access locations to create city and country.
 To start the project,  I run 'rails new vacation-rails-project' in my terminal. I used a 'Rails generator resources', which creates a bunch of folder and files for users, locations, trips, & travels. 
 
-- Prerequisites/Installation
+# Prerequisites/Installation
 I added 'gem' on Gemfile:
 gem 'bcrypt', '~> 3.1.7'
 gem 'omniauth'
@@ -17,7 +17,7 @@ Run bundle install
 Run rails db:create and rails db:migrate
 Run rails s to start the application
 
-- Models
+# Models
 The project app is built with Ruby on Rails and follows the basic MVC pattern. There are four models: User,Location,Trip,and Travel.
 First I created the relationships between the model class.
 
@@ -56,7 +56,7 @@ In the models I created the scope methods, reasonable validations,  has_secure_p
  
 Also I make a nested routes with the appropriate RESTful URLs with a nested new index or show routes with form that relates to the parents resource. I make the form to display validation errors messages describing the validation failures within the view. I make a lot of partial views to avoid dupulicated codes and the application to be 'DRY' by using layouts, partials, helpers and refactoring.
 
-- Controllers
+# Controllers
 There are five (locations, sessions,travels, trips, and users) controllers. The controllers implement RESTful routes and more importantly nested routes.  I built a Sessions controller to deal with login and logout logic. I wanted user to be able to login using either username/password combination OR OAuth2 through Google, so there are both “sessions#create” and “sessions#create_with_google” routes.
 
  Also I setting up partials to use local variables allows you to use the partials across any controller view without needing to duplicate the code.
@@ -64,5 +64,5 @@ I created methods in helpers folder, models folder, html in views folder, tables
 
 This project was really fun and challeging to build. I learned a lot and still I feel I’ve to learn more in Rails. 
 
-- Code & Demo
+# Code & Demo
 You can check out this project on Github '' or see the demo '' hosted.
