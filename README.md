@@ -66,3 +66,6 @@ This project was really fun and challeging to build. I learned a lot and still I
 
 # Code & Demo
 You can check out this project on Github '' or see the demo '' hosted.
+
+## License & copyright
+Licensed under the [MIT License](LICENCE).
