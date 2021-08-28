@@ -65,7 +65,7 @@ I created methods in helpers folder, models folder, html in views folder, tables
 This project was really fun and challeging to build. I learned a lot and still I feel I’ve to learn more in Rails. 
 
 # Code & Demo
-You can check out this project on Github '' or see the demo '' hosted.
+You can check out this project on Github 'https://github.com/Gebre2020/vacation-rails-project' or see the demo 'https://www.youtube.com/watch?v=AuyppfWgn9E' hosted.
 
 ## License & copyright
 Licensed under the [MIT License](LICENCE).
